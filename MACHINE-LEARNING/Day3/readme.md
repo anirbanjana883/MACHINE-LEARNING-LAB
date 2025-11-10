@@ -25,6 +25,7 @@ def coeff(x, y):
     b1 = ss_xy / ss_xx
     b0 = my - b1 * mx
     return (b0, b1)
+
 This function manually computes the coefficients b₀ (intercept) and b₁ (slope) using the least squares method (like simple linear regression).
 <img width="1013" height="193" alt="image" src="https://github.com/user-attachments/assets/7b1972d4-fb85-499f-87dd-8c514c711f69" />
 
